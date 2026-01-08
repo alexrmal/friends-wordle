@@ -1,4 +1,15 @@
 body {
+    body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: grid;
+  gap: 8px;
+  width: fit-content;
+  margin: 40px auto;
+}
     font-family: sans-serif;
 
     .row {
