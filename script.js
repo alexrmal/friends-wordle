@@ -18,6 +18,14 @@ function handleKeyPress(event) {
         addLetter(key);
     }
 
+function addLetter(letter) {
+    if (currentCol >= 5) {
+        return
+    }
 
+    const title = rows[currentRow].children[currentCol];
+    title.textContent = letter;
+    currentCol++;
+}
 
 }
